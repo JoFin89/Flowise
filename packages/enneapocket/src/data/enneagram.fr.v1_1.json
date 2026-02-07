@@ -1,0 +1,1601 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "name": "Le Réformateur",
+      "summary": "Recherche d'amélioration et d'intégrité.",
+      "keywords": [
+        "rigueur",
+        "éthique"
+      ],
+      "wings": [
+        2,
+        9
+      ],
+      "illustration": "/illustrations/type-1.svg"
+    },
+    {
+      "id": 2,
+      "name": "L'Aidant",
+      "summary": "Empathie et soutien aux autres.",
+      "keywords": [
+        "générosité",
+        "relation"
+      ],
+      "wings": [
+        1,
+        3
+      ],
+      "illustration": "/illustrations/type-2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Le Battant",
+      "summary": "Orientation résultats et réussite.",
+      "keywords": [
+        "efficacité",
+        "image"
+      ],
+      "wings": [
+        2,
+        4
+      ],
+      "illustration": "/illustrations/type-3.svg"
+    },
+    {
+      "id": 4,
+      "name": "L'Individualiste",
+      "summary": "Profondeur émotionnelle et authenticité.",
+      "keywords": [
+        "sensibilité",
+        "créativité"
+      ],
+      "wings": [
+        3,
+        5
+      ],
+      "illustration": "/illustrations/type-4.svg"
+    },
+    {
+      "id": 5,
+      "name": "L'Observateur",
+      "summary": "Analyse et besoin de compréhension.",
+      "keywords": [
+        "lucidité",
+        "distance"
+      ],
+      "wings": [
+        4,
+        6
+      ],
+      "illustration": "/illustrations/type-5.svg"
+    },
+    {
+      "id": 6,
+      "name": "Le Loyaliste",
+      "summary": "Sécurité et loyauté.",
+      "keywords": [
+        "prudence",
+        "engagement"
+      ],
+      "wings": [
+        5,
+        7
+      ],
+      "illustration": "/illustrations/type-6.svg"
+    },
+    {
+      "id": 7,
+      "name": "L'Épicurien",
+      "summary": "Optimisme et exploration.",
+      "keywords": [
+        "enthousiasme",
+        "variété"
+      ],
+      "wings": [
+        6,
+        8
+      ],
+      "illustration": "/illustrations/type-7.svg"
+    },
+    {
+      "id": 8,
+      "name": "Le Leader",
+      "summary": "Puissance et protection.",
+      "keywords": [
+        "affirmation",
+        "justice"
+      ],
+      "wings": [
+        7,
+        9
+      ],
+      "illustration": "/illustrations/type-8.svg"
+    },
+    {
+      "id": 9,
+      "name": "Le Médiateur",
+      "summary": "Harmonie et stabilité.",
+      "keywords": [
+        "calme",
+        "cohésion"
+      ],
+      "wings": [
+        8,
+        1
+      ],
+      "illustration": "/illustrations/type-9.svg"
+    }
+  ],
+  "instincts": [
+    {
+      "id": "sp",
+      "label": "Auto-préservation",
+      "prompt": "Priorité à la sécurité et au confort."
+    },
+    {
+      "id": "so",
+      "label": "Social",
+      "prompt": "Priorité au groupe et à l'appartenance."
+    },
+    {
+      "id": "sx",
+      "label": "Intime",
+      "prompt": "Priorité à l'intensité relationnelle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "text": "Question 1 : Je me reconnais dans la situation 1.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q002",
+      "text": "Question 2 : Je me reconnais dans la situation 2.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q003",
+      "text": "Question 3 : Je me reconnais dans la situation 3.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q004",
+      "text": "Question 4 : Je me reconnais dans la situation 4.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q005",
+      "text": "Question 5 : Je me reconnais dans la situation 5.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q006",
+      "text": "Question 6 : Je me reconnais dans la situation 6.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q007",
+      "text": "Question 7 : Je me reconnais dans la situation 7.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q008",
+      "text": "Question 8 : Je me reconnais dans la situation 8.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q009",
+      "text": "Question 9 : Je me reconnais dans la situation 9.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q010",
+      "text": "Question 10 : Je me reconnais dans la situation 10.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q011",
+      "text": "Question 11 : Je me reconnais dans la situation 11.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q012",
+      "text": "Question 12 : Je me reconnais dans la situation 12.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q013",
+      "text": "Question 13 : Je me reconnais dans la situation 13.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q014",
+      "text": "Question 14 : Je me reconnais dans la situation 14.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q015",
+      "text": "Question 15 : Je me reconnais dans la situation 15.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q016",
+      "text": "Question 16 : Je me reconnais dans la situation 16.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q017",
+      "text": "Question 17 : Je me reconnais dans la situation 17.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q018",
+      "text": "Question 18 : Je me reconnais dans la situation 18.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q019",
+      "text": "Question 19 : Je me reconnais dans la situation 19.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q020",
+      "text": "Question 20 : Je me reconnais dans la situation 20.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q021",
+      "text": "Question 21 : Je me reconnais dans la situation 21.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q022",
+      "text": "Question 22 : Je me reconnais dans la situation 22.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q023",
+      "text": "Question 23 : Je me reconnais dans la situation 23.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q024",
+      "text": "Question 24 : Je me reconnais dans la situation 24.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q025",
+      "text": "Question 25 : Je me reconnais dans la situation 25.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q026",
+      "text": "Question 26 : Je me reconnais dans la situation 26.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q027",
+      "text": "Question 27 : Je me reconnais dans la situation 27.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q028",
+      "text": "Question 28 : Je me reconnais dans la situation 28.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q029",
+      "text": "Question 29 : Je me reconnais dans la situation 29.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q030",
+      "text": "Question 30 : Je me reconnais dans la situation 30.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q031",
+      "text": "Question 31 : Je me reconnais dans la situation 31.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q032",
+      "text": "Question 32 : Je me reconnais dans la situation 32.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q033",
+      "text": "Question 33 : Je me reconnais dans la situation 33.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q034",
+      "text": "Question 34 : Je me reconnais dans la situation 34.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q035",
+      "text": "Question 35 : Je me reconnais dans la situation 35.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q036",
+      "text": "Question 36 : Je me reconnais dans la situation 36.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q037",
+      "text": "Question 37 : Je me reconnais dans la situation 37.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q038",
+      "text": "Question 38 : Je me reconnais dans la situation 38.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q039",
+      "text": "Question 39 : Je me reconnais dans la situation 39.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q040",
+      "text": "Question 40 : Je me reconnais dans la situation 40.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q041",
+      "text": "Question 41 : Je me reconnais dans la situation 41.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q042",
+      "text": "Question 42 : Je me reconnais dans la situation 42.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q043",
+      "text": "Question 43 : Je me reconnais dans la situation 43.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q044",
+      "text": "Question 44 : Je me reconnais dans la situation 44.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q045",
+      "text": "Question 45 : Je me reconnais dans la situation 45.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q046",
+      "text": "Question 46 : Je me reconnais dans la situation 46.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q047",
+      "text": "Question 47 : Je me reconnais dans la situation 47.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q048",
+      "text": "Question 48 : Je me reconnais dans la situation 48.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q049",
+      "text": "Question 49 : Je me reconnais dans la situation 49.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q050",
+      "text": "Question 50 : Je me reconnais dans la situation 50.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q051",
+      "text": "Question 51 : Je me reconnais dans la situation 51.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q052",
+      "text": "Question 52 : Je me reconnais dans la situation 52.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q053",
+      "text": "Question 53 : Je me reconnais dans la situation 53.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q054",
+      "text": "Question 54 : Je me reconnais dans la situation 54.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q055",
+      "text": "Question 55 : Je me reconnais dans la situation 55.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q056",
+      "text": "Question 56 : Je me reconnais dans la situation 56.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q057",
+      "text": "Question 57 : Je me reconnais dans la situation 57.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q058",
+      "text": "Question 58 : Je me reconnais dans la situation 58.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q059",
+      "text": "Question 59 : Je me reconnais dans la situation 59.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q060",
+      "text": "Question 60 : Je me reconnais dans la situation 60.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q061",
+      "text": "Question 61 : Je me reconnais dans la situation 61.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q062",
+      "text": "Question 62 : Je me reconnais dans la situation 62.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q063",
+      "text": "Question 63 : Je me reconnais dans la situation 63.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q064",
+      "text": "Question 64 : Je me reconnais dans la situation 64.",
+      "weights": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q065",
+      "text": "Question 65 : Je me reconnais dans la situation 65.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q066",
+      "text": "Question 66 : Je me reconnais dans la situation 66.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q067",
+      "text": "Question 67 : Je me reconnais dans la situation 67.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q068",
+      "text": "Question 68 : Je me reconnais dans la situation 68.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q069",
+      "text": "Question 69 : Je me reconnais dans la situation 69.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1
+      }
+    },
+    {
+      "id": "Q070",
+      "text": "Question 70 : Je me reconnais dans la situation 70.",
+      "weights": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 2,
+        "9": 0
+      }
+    },
+    {
+      "id": "Q071",
+      "text": "Question 71 : Je me reconnais dans la situation 71.",
+      "weights": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2
+      }
+    },
+    {
+      "id": "Q072",
+      "text": "Question 72 : Je me reconnais dans la situation 72.",
+      "weights": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    }
+  ],
+  "discriminators": [
+    {
+      "id": "D001",
+      "text": "Discriminante 1 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D002",
+      "text": "Discriminante 2 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D003",
+      "text": "Discriminante 3 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D004",
+      "text": "Discriminante 4 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D005",
+      "text": "Discriminante 5 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D006",
+      "text": "Discriminante 6 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D007",
+      "text": "Discriminante 7 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 3,
+        "9": 0
+      }
+    },
+    {
+      "id": "D008",
+      "text": "Discriminante 8 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3
+      }
+    },
+    {
+      "id": "D009",
+      "text": "Discriminante 9 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D010",
+      "text": "Discriminante 10 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D011",
+      "text": "Discriminante 11 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "id": "D012",
+      "text": "Discriminante 12 : Je réagis ainsi lorsque la pression monte.",
+      "weights": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "SC001",
+      "context": "Travail",
+      "targetType": 1,
+      "dialogue": "Une deadline approche et l'équipe est dispersée.",
+      "choices": [
+        {
+          "label": "Clarifier les standards et planifier.",
+          "scores": {
+            "connection": 1,
+            "trust": 2,
+            "conflict": 0
+          },
+          "correction": "Le type 1 apprécie une structure claire."
+        },
+        {
+          "label": "Laisser l'équipe improviser.",
+          "scores": {
+            "connection": 0,
+            "trust": 0,
+            "conflict": 2
+          },
+          "correction": "L'absence de cadre augmente la tension."
+        }
+      ]
+    },
+    {
+      "id": "SC002",
+      "context": "Couple",
+      "targetType": 4,
+      "dialogue": "Votre partenaire se sent incompris.",
+      "choices": [
+        {
+          "label": "Exprimer votre ressenti avec authenticité.",
+          "scores": {
+            "connection": 2,
+            "trust": 1,
+            "conflict": 0
+          },
+          "correction": "Le type 4 valorise la profondeur émotionnelle."
+        },
+        {
+          "label": "Rationaliser sans émotion.",
+          "scores": {
+            "connection": 0,
+            "trust": 0,
+            "conflict": 2
+          },
+          "correction": "Un ton froid risque de couper la connexion."
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "engine": {
+      "rules": [
+        {
+          "context": "Travail",
+          "strengths": [
+            "Structure",
+            "fiabilité"
+          ],
+          "risks": [
+            "Rigidité",
+            "perfectionnisme"
+          ],
+          "dos": [
+            "Aligner les attentes",
+            "donner des feedbacks"
+          ],
+          "donts": [
+            "Ignorer les détails",
+            "minimiser les efforts"
+          ],
+          "repairSteps": [
+            "Reconnaître les contributions",
+            "clarifier le plan"
+          ]
+        },
+        {
+          "context": "Couple",
+          "strengths": [
+            "Soutien",
+            "écoute"
+          ],
+          "risks": [
+            "Projection émotionnelle"
+          ],
+          "dos": [
+            "Exprimer ses besoins",
+            "valider les émotions"
+          ],
+          "donts": [
+            "Éviter la vulnérabilité"
+          ],
+          "repairSteps": [
+            "Se reconnecter par des rituels",
+            "poser des intentions"
+          ]
+        }
+      ],
+      "specialCases": [
+        {
+          "types": [
+            1,
+            5
+          ],
+          "context": "Travail",
+          "strengths": [
+            "Analyse rigoureuse",
+            "précision"
+          ],
+          "risks": [
+            "Distance émotionnelle"
+          ],
+          "dos": [
+            "Partager les intentions",
+            "créer un espace de questions"
+          ],
+          "donts": [
+            "Supposer que tout est évident"
+          ],
+          "repairSteps": [
+            "Clarifier les attentes",
+            "faire un point de synchronisation"
+          ]
+        }
+      ]
+    }
+  },
+  "teamTemplates": {
+    "byType": {
+      "1": {
+        "synergies": [
+          "Rigueur",
+          "qualité"
+        ],
+        "tensions": [
+          "Critique excessive"
+        ],
+        "recommendations": [
+          "Valoriser les standards",
+          "clarifier la marge de manoeuvre"
+        ]
+      },
+      "2": {
+        "synergies": [
+          "Cohésion",
+          "entraide"
+        ],
+        "tensions": [
+          "Dépendance"
+        ],
+        "recommendations": [
+          "Encourager l'autonomie",
+          "remercier explicitement"
+        ]
+      }
+    }
+  },
+  "dailyAdvice": {
+    "1": [
+      "Conseil du jour pour le type 1: respirez et ajustez votre énergie."
+    ],
+    "2": [
+      "Conseil du jour pour le type 2: respirez et ajustez votre énergie."
+    ],
+    "3": [
+      "Conseil du jour pour le type 3: respirez et ajustez votre énergie."
+    ],
+    "4": [
+      "Conseil du jour pour le type 4: respirez et ajustez votre énergie."
+    ],
+    "5": [
+      "Conseil du jour pour le type 5: respirez et ajustez votre énergie."
+    ],
+    "6": [
+      "Conseil du jour pour le type 6: respirez et ajustez votre énergie."
+    ],
+    "7": [
+      "Conseil du jour pour le type 7: respirez et ajustez votre énergie."
+    ],
+    "8": [
+      "Conseil du jour pour le type 8: respirez et ajustez votre énergie."
+    ],
+    "9": [
+      "Conseil du jour pour le type 9: respirez et ajustez votre énergie."
+    ]
+  }
+}

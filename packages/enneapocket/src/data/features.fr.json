@@ -1,0 +1,29 @@
+{
+  "appName": "EnnéaPocket",
+  "tagline": "Votre boussole d’ennéagramme mobile-first",
+  "navigation": [
+    {"label": "Test", "href": "/test"},
+    {"label": "Scénarios", "href": "/scenarios"},
+    {"label": "Profil", "href": "/me"},
+    {"label": "Compatibilité", "href": "/compatibility"},
+    {"label": "Équipe", "href": "/team"},
+    {"label": "Notifications", "href": "/notifications"}
+  ],
+  "sections": [
+    {
+      "title": "Test adaptatif",
+      "description": "Passez en mode rapide 30 questions ou pro 72 questions et affinez avec des discriminantes.",
+      "cta": {"label": "Commencer le test", "href": "/test"}
+    },
+    {
+      "title": "Scénarios guidés",
+      "description": "Explorez des mini-dialogues et obtenez des conseils d’ajustement par contexte.",
+      "cta": {"label": "Voir les scénarios", "href": "/scenarios"}
+    },
+    {
+      "title": "Mon profil",
+      "description": "Centralisez votre type, ailes, instincts, journal et objectifs de croissance.",
+      "cta": {"label": "Accéder au profil", "href": "/me"}
+    }
+  ]
+}
