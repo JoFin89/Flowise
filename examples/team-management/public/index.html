@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Team Management App</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  section { margin-bottom: 40px; }
+  input, button { margin: 5px; }
+</style>
+</head>
+<body>
+<h1>Team Management App</h1>
+<section>
+  <h2>Add Member</h2>
+  <input id="member-name" placeholder="Name" />
+  <input id="member-role" placeholder="Role" />
+  <button onclick="addMember()">Add</button>
+  <ul id="members"></ul>
+</section>
+<section>
+  <h2>Add Task</h2>
+  <input id="task-title" placeholder="Title" />
+  <input id="task-assignee" placeholder="Assignee ID" />
+  <button onclick="addTask()">Add</button>
+  <ul id="tasks"></ul>
+</section>
+<section>
+  <h2>Schedule Meeting</h2>
+  <input id="meeting-subject" placeholder="Subject" />
+  <input id="meeting-time" placeholder="Time" />
+  <button onclick="addMeeting()">Add</button>
+  <ul id="meetings"></ul>
+</section>
+<script>
+async function fetchList(url, listElement) {
+  const res = await fetch(url);
+  const data = await res.json();
+  listElement.innerHTML = data.map(item => `<li>${JSON.stringify(item)}</li>`).join('');
+}
+async function addMember() {
+  await fetch('/api/members', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: document.getElementById('member-name').value, role: document.getElementById('member-role').value })
+  });
+  fetchMembers();
+}
+async function addTask() {
+  await fetch('/api/tasks', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title: document.getElementById('task-title').value, assigneeId: document.getElementById('task-assignee').value })
+  });
+  fetchTasks();
+}
+async function addMeeting() {
+  await fetch('/api/meetings', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ subject: document.getElementById('meeting-subject').value, time: document.getElementById('meeting-time').value })
+  });
+  fetchMeetings();
+}
+function fetchMembers() { fetchList('/api/members', document.getElementById('members')); }
+function fetchTasks() { fetchList('/api/tasks', document.getElementById('tasks')); }
+function fetchMeetings() { fetchList('/api/meetings', document.getElementById('meetings')); }
+fetchMembers();
+fetchTasks();
+fetchMeetings();
+</script>
+</body>
+</html>
